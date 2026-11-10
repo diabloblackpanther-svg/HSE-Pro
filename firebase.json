@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-android-hsepro-7fb007ed-b9bf-4679-9c3a-0aa0b47badc3",
+      "rules": "firestore.rules"
+    }
+  ]
+}

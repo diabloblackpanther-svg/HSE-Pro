@@ -1,0 +1,6 @@
+{
+  "name": "HSE Pro",
+  "description": "Health, Safety & Environment (HSE) Assistant for site managers and safety officers with zero-incident counter, work permits workflow, multi-site support, finger signatures, QR verification, and bilingual support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

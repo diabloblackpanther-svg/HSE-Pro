@@ -1,0 +1,62 @@
+{
+  "entities": {
+    "Permit": {
+      "fields": {
+        "userId": "string",
+        "siteId": "string",
+        "title": "string",
+        "type": "string",
+        "status": "string",
+        "location": "string",
+        "applicant": "string",
+        "supervisor": "string",
+        "validFrom": "string",
+        "validUntil": "string",
+        "updatedAt": "timestamp"
+      }
+    },
+    "Incident": {
+      "fields": {
+        "userId": "string",
+        "siteId": "string",
+        "title": "string",
+        "severity": "string",
+        "location": "string",
+        "description": "string",
+        "reportedBy": "string",
+        "createdAt": "timestamp"
+      }
+    },
+    "Inspection": {
+      "fields": {
+        "userId": "string",
+        "siteId": "string",
+        "title": "string",
+        "complianceScore": "number",
+        "auditor": "string",
+        "createdAt": "timestamp"
+      }
+    },
+    "TrainingLog": {
+      "fields": {
+        "userId": "string",
+        "siteId": "string",
+        "topic": "string",
+        "trainer": "string",
+        "attendeesCount": "number",
+        "date": "string"
+      }
+    },
+    "EquipmentPpe": {
+      "fields": {
+        "userId": "string",
+        "siteId": "string",
+        "itemName": "string",
+        "type": "string",
+        "quantity": "number",
+        "status": "string",
+        "expiryDate": "string"
+      }
+    }
+  }
+}
